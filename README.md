@@ -2,7 +2,7 @@
 ## 1. Additional control and data register
 Registers
 
- For distribute Fault processing by cause,  there is special registers as below.
+ For distribute Fault processing by cause,  there is special register as below.
 - 4.4.9 System handler control and state register (SCB_SHCSR) at p140-141 of PM0056.\
 Partial list
   - Bit 18 USGFAULTENA: Usage fault enable bit, set to 1 to enable.
