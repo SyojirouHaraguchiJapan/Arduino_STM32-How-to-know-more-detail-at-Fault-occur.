@@ -181,7 +181,7 @@ uint32_t reg_data;
 #endif
 }
 ```
-#3. How to cause each Fault and check saved Fault data in BACKUP RAM
+## 3. How to cause each Fault and check saved Fault data in BACKUP RAM
 This is "BluePill-Fault-Test.ino" tested on Arduino IDE 1.8.8 + Arduino_STM32.
 - Force cause Fault from Arduino side application soft.
 - When Fault occur, save registers to BACKUP RAM automatic.
