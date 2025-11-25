@@ -29,7 +29,7 @@ Notice
 For STM32F1 0xE000-ED00, but for STM32L and STM32F2 0xE000-E008. 
 
 ## 2. How to check these resisters contents
-We store them to BACKUP RAM and check after next reset/reboot.
+We store them to BACKUP RAM and check after at next reset/reboot.
 - Because, in fault processing, we can easy read these registers but hard to output via Serial, USB, I2C and SPI device directly.
 - Let us save them into BACKUP RAM in RTC for after reset/reboot.
 - BACKUP RAM is built-in for allmost all STM32 device
