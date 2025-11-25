@@ -33,6 +33,7 @@ We store them to BACKUP RAM and check after next reset/reboot.
 - BACKUP RAM is built-in for allmost all STM32 device
 - And also occur time is important, save with too. 
 
+Description\
 - Use 10 BACKUP RAM from end according to BKP_NR_DATA_REGS.
 - Direct RTC register access.\
 Unfortunately, Arduino_STM32 RTC library cann't include/call.
