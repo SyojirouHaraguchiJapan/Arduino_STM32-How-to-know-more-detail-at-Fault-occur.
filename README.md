@@ -9,10 +9,10 @@
 And notice
 - 4.4.14 System control block design hints and tips. at p148 of RM0056.
 - 4.4.15 SCB register map. at p148 of RM0056\
-For STM32F1 0xE000 ED00, but for STM32L and STM32F2 0xE000 E008. 
+For STM32F1 0xE000-ED00, but for STM32L and STM32F2 0xE000-E008. 
 ## 2. How to check these resisters contents
 We store them to BACKUP RAM and check after next reset/reboot.
 - Because, in fault processing, we can easy read these registers but hard to output via serial, USB, I2C and SPI device directly.
 - let us save them into BACKUP RAM in RTC for after reset/reboot.
-- BACKUP RAM is include in allmost all STM32 device
+- BACKUP RAM is built-in for allmost all STM32 device
 - And also occur time is important, save with too. 
