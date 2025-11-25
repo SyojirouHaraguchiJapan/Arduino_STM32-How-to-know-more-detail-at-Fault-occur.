@@ -4,6 +4,9 @@
 
 Registers
 - 4.4.9 System handler control and state register (SCB_SHCSR) at p140-141 of PM0056.
+  - Bit 18 USGFAULTENA: Usage fault enable bit, set to 1 to enable.
+  - Bit 17 BUSFAULTENA: Bus fault enable bit, set to 1 to enable.
+  - Bit 16 MEMFAULTENA: Memory management fault enable bit, set to 1 to enable. 
 - 4.4.10 Configurable fault status register (SCB_CFSR) at p142-145 of PM0056.
 - 4.4.11 Hard fault ststus register (SCB_HFSR) at p145-146 of RM0056.
 - 4.4.12 Memory management fault address register (SCB_MMFAR) at p147 of RM0056.
