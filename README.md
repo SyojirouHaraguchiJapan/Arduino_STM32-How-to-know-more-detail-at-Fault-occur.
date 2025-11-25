@@ -14,7 +14,7 @@ Partial list
   - Bit 15 BFARVALID:  Bus Fault Address Register (BFAR) valid.
   - Bit  9 PRECISERR:  Precise data bus error.
   - Bit  8 IBUSERR:    Instruction bus error
-  - Bit  7 MMARVALID:  Management Fault Address Register (MMAR) valid flag.
+  - Bit  7 MMARVALID:  Management Fault Address Register (MMFAR) valid flag.
   - Bit  1 DACCVIOL:   Data access violation flag.
   - Bit  0 IACCVIOL:   Instruction access violation flag
 - 4.4.11 Hard fault status register (SCB_HFSR) at p145-146 of RM0056.
